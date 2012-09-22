@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2012-02-06T05:30:47+04:00
+
+Киберпунковый рогалик.
+Ориентиры: 
+* Дизайн, атмосфера: bladerunner, beneath a steel sky
+* Хакинг: uplink, street hacker
+
+Идеи:
+[[+Ideas:World|Мир]]
+[[+Ideas:Hacking|Хакинг]]
+[[+Ideas:Roguelike mode|Рогалик]]

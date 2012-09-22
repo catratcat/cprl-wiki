@@ -1,0 +1,80 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2012-02-10T14:43:21+04:00
+
+====== File System ======
+Created Пятница 10 Февраль 2012
+
+Разные виды файликов и организация файловой директории сюда же.
+Набросок иерархии:
+* /
+	* System/
+		* kernel
+		* bootloader
+		* runtime
+	* Executables/
+		* someprog.exe
+		* ...
+	* Services/
+		* someserv/
+		* ...
+	* Data/
+		* file.whatever
+		* ...
+	
+	[FileService]
+	* /Data/Pub/
+		* %FileName%
+		* ...
+	* /Services/%name%/
+		* %name%serv
+		* Accounts.db
+		* config
+	[/FileService]
+	
+	[SiteService]
+	* /Data/Site
+		* index.site
+		* someotherpage.site
+		* ...
+	* /Services/%name%/
+		* %name%serv
+		* Accounts.db
+		* config
+	[/SiteService]
+	
+	[MailService]
+	* /Data/Mail
+		* %AccountName%
+			* %subj%.mail
+			* ...
+		* ...
+	* /Services/%name%/
+		* %name%serv
+		* Accounts.db
+		* config
+	[/MailService]
+	
+	[RemoteControlService]
+	* /Services/%name%/
+		* %name%serv
+	[/RemoteControlService]
+	
+	[ProxyService]
+	* /Services/%name%/
+		* %name%serv
+	[ProxyService]
+	
+	[LoggerService]
+	* /Data/Logs
+		* %date%.log
+		* ...
+	* /Services/%name%/
+		* %name%serv
+		* config
+	[/LoggerService]
+	
+	[MonitorService]
+	* /Services/%name%/
+		* %name%serv
+	[MonitorService]
