@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2012-02-06T05:30:47+04:00
+
+====== Главная ======
+CPRL - CyberPunk RogueLike. Т.е. фантазии на название не хватает — зовется по-капитански.
+Ориентиры: 
+* Дизайн, атмосфера: bladerunner, beneath a steel sky
+* Хакинг: uplink, street hacker, hacker elite
